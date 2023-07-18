@@ -1,0 +1,25 @@
+<div class="container">
+    <div *ngFor="let movie of movies">
+        <div class="row py-5" >
+            <div class="col-4" >
+                <img src="http://localhost:8000/assets/images/{{movie.poster}}" class="img-fluid" alt="">
+            </div>
+            <div class="col-8">
+                <h1>{{ movie.title }}</h1>
+                <p class="badge bg-primary" *ngFor="let genre of movie.genres">{{ genre.title }}</p>
+                <p>{{ movie.released |date: 'dd' }}/{{ movie.released |date: 'MM' }}/{{ movie.released|date: 'yyyy' }}</p>
+                    <!-- <p>Age : {{ movie.rated }}</p>
+                    <p>Durée : {{ movie.runtime }}</p> -->
+                <p *ngFor="let writer of movie.writers">De : {{ writer.firstName }} {{ writer.lastName }}</p>
+                <p>avec :
+                    <span *ngFor="let actor of movie.actors">{{ actor.firstName }} {{ actor.lastName }} </span>
+                </p>
+
+                <p class="d-none d-md-block">{{ movie.plot }}</p>
+            </div>
+            <div class="col-12 d-block d-md-none py-3">
+                {{ movie.plot }}
+            </div>
+        </div>
+    </div>
+</div>

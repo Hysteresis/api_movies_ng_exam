@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1fa73a65d0e62f5924003566e346494b15ea4e5f Pierrot43 <pierre@drosalys.fr> 1687355367 +0200	commit (initial): initial commit
+1fa73a65d0e62f5924003566e346494b15ea4e5f 90036bb5b72cc82f9afa70ddd3920de264b42167 Pierrot43 <pierre@drosalys.fr> 1687355529 +0200	commit: first commit
+90036bb5b72cc82f9afa70ddd3920de264b42167 90036bb5b72cc82f9afa70ddd3920de264b42167 Pierrot43 <pierre@drosalys.fr> 1687355534 +0200	Branch: renamed refs/heads/master to refs/heads/main
+90036bb5b72cc82f9afa70ddd3920de264b42167 5121c485494fe9f327a143b5fd279730c9347ffa Pierrot43 <pierre@drosalys.fr> 1687417031 +0200	pull: Fast-forward

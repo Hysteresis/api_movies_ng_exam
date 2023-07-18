@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 5121c485494fe9f327a143b5fd279730c9347ffa Pierrot43 <pierre@drosalys.fr> 1687954893 +0200	branch: Created from HEAD
+5121c485494fe9f327a143b5fd279730c9347ffa a54f039d33fecb331f8029181514bc1c5c4afaab Pierrot43 <pierre@drosalys.fr> 1687955428 +0200	commit: added actors and writers
+a54f039d33fecb331f8029181514bc1c5c4afaab 03f15787d02f539df3348fcab609f772221def27 Pierrot43 <pierre@drosalys.fr> 1687955909 +0200	commit: added actors adn writers and prettier code
+03f15787d02f539df3348fcab609f772221def27 483e38c6c4bbcdfdd833090af902a1b32a017d20 Pierrot43 <pierre@drosalys.fr> 1687959372 +0200	commit: fixed col
